@@ -62,7 +62,7 @@ M.plugins = {
       colorizer = false, -- color RGB, HEX, CSS, NAME color codes
       comment = true, -- easily (un)comment code, language aware
       dashboard = false,
-      esc_insertmode = true, -- map to <ESC> with no lag
+      better_escape = true, -- map to <ESC> with no lag
       feline = true, -- statusline
       gitsigns = true,
       lspsignature = true, -- lsp enhancements
@@ -84,6 +84,7 @@ M.plugins = {
             allow_resize = true,
             side = "left",
             width = 25,
+            hide_root_folder = true,
          },
       },
       luasnip = {
